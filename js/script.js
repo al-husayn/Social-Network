@@ -18,7 +18,7 @@ var users = [
         avatar: 'avatar5.png'
     },
     {
-        name: 'Ibra',
+        name: 'Ibrah',
         gender: 'M',
         hobby: 'sports',
         avatar: 'avatar6.png'
