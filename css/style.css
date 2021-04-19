@@ -3,7 +3,7 @@ body {
 }
 
 #header {
-    background-color: aqua;
+    background-color: rgb(255, 123, 0);
     height: 40px;
     text-align: center;
     line-height: 40px;
@@ -27,7 +27,7 @@ h1{
 .person-row{
     margin: 10px 0px;
     padding: 10px;
-    background-color: deepskyblue;
+    background-color: rgba(58, 13, 47, 0.603);
     width: 100%;
     float: left;
 }
@@ -35,12 +35,28 @@ h1{
 .person-row img{
     float: left;
     margin-right: 20px;
+    width: 60px;
+    height: 60px;
 }
 
 .person-info {
     float: left;
+    color: white;
+    position: relative;
 }
 
 .person-row > button {
     float: right;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 4px;
+    cursor: pointer;
+    border-radius:12px;
+    position: auto;
 }
