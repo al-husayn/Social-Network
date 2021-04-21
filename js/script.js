@@ -1,6 +1,7 @@
 var users = [
     {
         name: 'Sawda',
+        age: 22,
         gender: 'F',
         hobby: 'pets',
         avatar: 'avatar1.png'        
@@ -8,36 +9,42 @@ var users = [
     {
         name: 'Aphya',
         gender: 'F',
+        age: 23,
         hobby: 'pets',
         avatar: 'avatar2.png'
     },
     {
         name: 'Drake',
         gender: 'M',
+        age: 24,
         hobby: 'music',
         avatar: 'avatar5.png'
     },
     {
         name: 'Ibrah',
         gender: 'M',
+        age: 25,
         hobby: 'sports',
         avatar: 'avatar6.png'
     },
     {
         name: 'Mercy',
         gender: 'F',
+        age: 20,
         hobby: 'reading',
         avatar: 'avatar3.png'
     },
     {
         name: 'Ama Konadu',
         gender: 'F',
+        age: 25,
         hobby: 'shopping',
         avatar: 'avatar4.png'
     },
     {
         name: 'Ridwan',
         gender: 'M',
+        age: 20,
         hobby: 'pets',
         avatar: 'avatar7.png'
     },
@@ -57,6 +64,7 @@ window.addEventListener('load', function() {
         var genderField = document.getElementById('gender');
         var s = genderField.selectedIndex;
         var gender = genderField.options[s].value;
+        
         
         var resultsHtml = '';
         var usersLength = users.length;

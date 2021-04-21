@@ -60,3 +60,9 @@ h1{
     border-radius:12px;
     position: auto;
 }
+
+button:hover {
+    background-color: #4CAF50;
+    color: white;
+
+}
